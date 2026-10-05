@@ -1,3 +1,6 @@
+CREATE TABLE animals AS
+SELECT *
+FROM read_csv_auto('animals.csv');
 
 -- animals sqlite sql
 SELECT
